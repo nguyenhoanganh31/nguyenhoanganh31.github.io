@@ -7,6 +7,9 @@
   </head>
   <body>
     <h1>Contact Us</h1>
-  <input name="readername" type="text" placeholder="Nguyen Hoang Anh"/>
+  <input name="readername" type="text" placeholder="Nguyen Hoang Anh"/><br>
+  <input name="readeremail" type="email" placeholder="hoanganh3152005@mail.com"/><br>
+  <textarea name="message" rows="5" cols="30" placeholder="Message"></textarea><br>
+  <button type="submit">Send Message</button>  
   </body>
 </html>

@@ -1,1 +1,51 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create student list with CSS3</title>
+    <style type="text/css">
+        .StudentDetails {display: none;}
+        .Student img{
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px #aaa;
+        }
+        .StudentName{font-weight: bold;}
+        .StudentID {font-style: italic;}
+        .StudentID:before {content: " - ";}
+        .Student{
+            text-align: center;
+            width: 150px;
+            margin: 0px 20px;
+            float: left;
+            cursor: pointer;
+        }
+        .Student:hover .StudentDetails{display: block;}
+    </style>
+</head>
+<body>
+ <div class="Student">
+    <img scr="https://tse3.explicit.bing.net/th?id=OIP.I6mf_K4HpujE9MCYFKE3DQHaHa&pid=Api&P=0&h=180">
+    <div class="StudentDetails">
+        <span class="StudentName">Lưu Văn Tài</span>
+        <span class="StudentID">2307xxxx</span>
+    </div>
+ </div>
+ <div class="Student">
+    <img scr="https://tse3.explicit.bing.net/th?id=OIP.I6mf_K4HpujE9MCYFKE3DQHaHa&pid=Api&P=0&h=180">
+    <div class="StudentDetails">
+        <span class="StudentName">Lê Quang Đức</span>
+        <span class="StudentID">2307xxxx</span>
+ </div>
+ </div>
+    <div class="Student">
+        <img scr="https://tse3.explicit.bing.net/th?id=OIP.I6mf_K4HpujE9MCYFKE3DQHaHa&pid=Api&P=0&h=180">
+        <div class="StudentDetails">
+            <span class="StudentName">Lê Xuân Đạt</span>
+            <span class="StudentID">2307xxxx</span>
+        </div>
+ </div>
+</body>
+</html>

@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 Lab Excercise</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+   <h1 style="color: black;text-align: center;font-size: 60px;">Wuthering Waves</h1> 
+   <hr width="70%" color="red" size="3px">
+   <div>
+    <h2>Upcoming Game 2024</h2>
+    <img src="https://cdn.sforum.vn/sforum/wp-content/uploads/2023/03/Wuthering-Waves-1.jpg" alt="Wuthering Waves"
 
+   </div>
+   <hr width="70%" color="red" size="3px">
+   <h3 style="font-style: oblique;">Link Dowload</h3>
+   <a href="https://wutheringwaves.kurogame.com/en/">Wuthering Waves</a>
+</body>
+</html>
